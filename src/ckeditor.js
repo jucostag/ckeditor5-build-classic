@@ -34,10 +34,10 @@ import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
 import '../theme/minimalist.css';
 
-export default class ClassicEditor extends ClassicEditorBase {}
+export default class MinimalistEditor extends ClassicEditorBase {}
 
 // Plugins to include in the build.
-ClassicEditor.builtinPlugins = [
+MinimalistEditor.builtinPlugins = [
 	Essentials,
 	UploadAdapter,
 	Alignment,
@@ -67,7 +67,7 @@ ClassicEditor.builtinPlugins = [
 ];
 
 // Editor configuration.
-ClassicEditor.defaultConfig = {
+MinimalistEditor.defaultConfig = {
 	toolbar: {
 		items: [
 			'bold',
